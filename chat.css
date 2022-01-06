@@ -1,0 +1,120 @@
+.chat {
+    position: absolute;
+    right: 10px;
+    bottom: 75px;
+    width: 250px;
+    height: calc(100% - 150px);
+    /* height: 100%; */
+    background-color: #fffefe;
+    border-radius: 20px 20px 0px 20px;
+    /* border-color: rgb(34, 29, 29); */
+    border-style: solid;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* box-shadow: -10px -6px 10px 4px #888888 */
+}
+
+.messageList {
+    /* width: 100%; */
+    /* background-color: #06B0EF; */
+    /* height: 32px; */
+    color: white;
+    border-radius: 0px 20px 20px 20px;
+    margin-bottom: 8px;
+    padding: 4px;
+    margin-right: 20px;
+    background-color: #06B0EF;
+
+
+}
+
+.messageList b {
+    padding: 8px;
+    /* text-align: center; */
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 5px;
+    /* box-shadow: 3px 5px #888888; */
+    border-radius: 0px 20px 20px 20px;
+}
+
+.messageListVisitor {
+    color: white;
+    border-radius: 20px 20px 0px 20px;
+    margin-bottom: 8px;
+    display: flex;
+    background-color: #d8d8d8;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.messageListVisitor b {
+    padding: 4px;
+    /* text-align: center; */
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+    align-self: flex-end;
+    margin-top: 5px;
+    /* box-shadow: 5px 3px #888888;
+      font-size: 12px; */
+}
+
+.chat-input {
+    position: absolute;
+    bottom: 0px;
+    width: 190px;
+    height: 25px;
+    padding: 6px;
+    border-radius: 20px 25px 20px 20px;
+    margin-bottom: 6px;
+    border-color: #141313;
+}
+
+.send-chat-button {
+    position: absolute;
+    bottom: 0px;
+    right: 4px;
+    width: 50px;
+    height: 41px;
+    padding: 6px;
+    background-color: #06B0EF;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 6px;
+    border-color: #11100f;
+}
+
+.send-chat-button:hover {
+    color: red;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.timestemp {
+    font-size: 8px;
+    margin-top: -7px;
+    margin-left: 12px;
+}
+
+.timestempVisitor {
+    font-size: 8px;
+    margin-top: -7px;
+    margin-right: 1px;
+    align-self: flex-end;
+}
+
+.chatHr {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.chatList {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
